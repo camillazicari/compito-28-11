@@ -28,12 +28,17 @@ p {
 }
 
 .tasks {
+    margin: 0.8em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 23%;
+    width: 20%;
     height: 200px;
     justify-content: center;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 6px 8px 19px 0px black;
 }
 
 .tasks:nth-child(1), .tasks:nth-child(5), .tasks:nth-child(7) {
@@ -48,6 +53,26 @@ p {
     background-color: #C5C5F0;
 }
 
-.tasks:nth-child(1) {
+.tasks:nth-child(1), .tasks:nth-child(5) {
     transform: rotate(-5deg);
 }
+
+.tasks:nth-child(2), .tasks:nth-child(8) {
+    transform: rotate(7deg);
+}
+
+.tasks:nth-child(3), .tasks:nth-child(6) {
+    transform: rotate(-9deg);
+}
+
+.tasks:nth-child(4) {
+    transform: rotate(12deg);
+}
+
+.tasks:nth-child(7) {
+    transform: rotate(-3deg);
+}
+
+.tasks:hover {
+    transform: rotate(0deg) scale(1.2);
+} 
