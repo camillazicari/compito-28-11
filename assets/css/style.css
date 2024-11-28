@@ -6,6 +6,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: "Indie Flower";
+    background-color: #666666;
 }
 
 #postIt {
@@ -45,4 +46,8 @@ p {
 
 .tasks:nth-child(3), .tasks:nth-child(6) {
     background-color: #C5C5F0;
+}
+
+.tasks:nth-child(1) {
+    transform: rotate(-5deg);
 }
