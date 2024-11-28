@@ -12,9 +12,8 @@ main {
 }
 
 #testoAlternato {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
+    padding-left: 1em;
+    padding-top: 1em;
     font-size: 2em;
     border: 4px solid #666666;
     width: 25em;
