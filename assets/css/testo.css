@@ -64,12 +64,12 @@ p {
         bottom: 1.7em;
     }
 
-    30% {
+    50% {
         color: #6b969d;
-        bottom: 1em;
+        bottom: 1.4em;
     }
 
-    80% {
+    to {
         color: transparent;
         bottom: -1em;
     }
