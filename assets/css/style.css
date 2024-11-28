@@ -42,15 +42,16 @@ p {
 }
 
 .tasks:nth-child(1), .tasks:nth-child(5), .tasks:nth-child(7) {
-    background-color: #FCFCCA;
+    background: linear-gradient(rgb(255, 255, 204) 0%, rgb(227, 227, 183) 75%, rgb(198,198,165) 93%);
 }
 
 .tasks:nth-child(2), .tasks:nth-child(4), .tasks:nth-child(8) {
-    background-color: #C6F5C7;
+    background: linear-gradient(rgb(204, 255, 204) 0%, rgb(184, 219, 184) 75%, rgb(146 180 146) 93%);
 }
 
 .tasks:nth-child(3), .tasks:nth-child(6) {
-    background-color: #C5C5F0;
+    background: linear-gradient(rgb(204, 204, 255) 0%, rgb(176, 176, 204) 75%, rgb(147 147 186) 93%)
+
 }
 
 .tasks:nth-child(1), .tasks:nth-child(5) {
